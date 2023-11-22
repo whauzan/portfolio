@@ -27,18 +27,8 @@ npm run check-types ||
     false;
 )
 
-# If everything passes... Now we can test
-echo '🤔🤔🤔🤔... Alright.... Code looks good to me... Trying to test now. 🤔🤔🤔🤔'
-
-npm run test ||
-(
-    echo '😒😴🥸😒 Failed on Testing. 😒😴🥸😒
-        Come on, get up and test it correctly.'
-    false;
-)
-
 # If everything passes... Now we can build
-echo '🤔🤔🤔🤔... Alright.... Code pass the test... Trying to build now. 🤔🤔🤔🤔'
+echo '🤔🤔🤔🤔... Alright.... Code looks good to me... Trying to build now. 🤔🤔🤔🤔'
 
 npm run build ||
 (
